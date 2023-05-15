@@ -1,0 +1,189 @@
+.product {
+    width: 30%;
+    float: left;
+    margin-left: 2.5%;
+    margin-top: 20px;
+    text-align: left;
+    overflow-y: hidden;
+    font-family: "Spectral", sans-serif;
+    height: 54vh;
+}
+
+section.product-info {
+    padding: 10px;
+}
+
+.product:hover section.product-info {
+    border-left: rgb(228, 228, 228) thin solid;
+    border-right: rgb(228, 228, 228) thin solid;
+    border-bottom: rgb(196, 196, 196) 2px solid;
+}
+
+.product:hover section.name {
+    color: #c4a907;
+}
+
+.product .img img {
+    padding: 1px;
+    width: 100%;
+    transition: all 1s ease;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+}
+
+.product .img img:hover {
+    transform: scale(1.2, 1.2);
+    -webkit-transform: scale(1.2, 1.2);
+    -moz-transform: scale(1.2, 1.2);
+    -o-transform: scale(1.2, 1.2);
+    -ms-transform: scale(1.2, 1.2);
+}
+
+section.img {
+    position: relative;
+    overflow: hidden;
+    object-fit: cover;
+}
+
+header,
+aside,
+article,
+footer {
+    float: left;
+    box-sizing: border-box;
+}
+
+.card-body {
+    min-height: 74vh;
+}
+
+header,
+footer {
+    width: 100%;
+}
+
+header {
+    background-color: #fff;
+    height: 100px;
+}
+
+.body {
+    width: 100%;
+    height: 20px;
+}
+
+.body aside {
+    width: 10%;
+    min-height: 300px;
+}
+
+.body article {
+    width: 80%;
+    min-height: 300px;
+}
+
+.account-link {
+    position: absolute;
+    top: 25px;
+    right: 10%;
+    text-align: right;
+    color: #000;
+    font-size: x-large;
+}
+
+.account-link:hover {
+    text-decoration: none;
+    color: #c4a907;
+}
+
+.logo,
+.logo:hover {
+    padding-left: 47%;
+    padding-top: 10px;
+    text-decoration: none;
+    display: flex;
+}
+
+.logo img {
+    max-height: 80px;
+}
+
+a.product-info,
+a.product-info:hover {
+    text-decoration: none;
+    text-align: center;
+}
+
+section.name {
+    font-weight: 700;
+    font-style: bold;
+    font-style: italic;
+    color: #000;
+}
+
+section.price {
+    padding: 2px;
+    font-family: "Heebo", sans-serif;
+    color: #c4a907;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+h3.title,
+h2 {
+    font-weight: 700;
+    display: inline-block;
+    color: #000;
+    padding: 5px 0;
+    padding-left: 10px;
+    text-transform: uppercase;
+}
+
+div.container-fluid {
+    padding: 0;
+}
+
+.card-header {
+    background-color: #fff;
+    text-align: center;
+}
+
+.card-footer {
+    border: 0px;
+    background-color: #5b5b5b;
+}
+
+.text-footer {
+    color: rgba(255, 255, 255, .5);
+    text-align: center;
+}
+
+.localname {
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 2px;
+}
+
+thead {
+    background-color: #c4a907;
+    color: #fff;
+}
+
+.btn-primary {
+    background-color: #ceb831;
+    border: #ceb831;
+}
+
+.btn-primary:hover {
+    background-color: #c4a907;
+    border: #c4a907;
+}
+
+.banner {
+    position: relative;
+    float: left;
+    left: -12.5%;
+    width: 125%;
+    overflow: visible;
+}
